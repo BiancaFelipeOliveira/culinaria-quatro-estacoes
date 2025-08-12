@@ -1,4 +1,4 @@
-# 🥗 Culinária Quatro Estações: Um Projeto de Hospedagem Web
+# 🥗 Culinária Quatro Estações
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/875cfede-738e-48f1-8b3e-0cc169265964" />
 
