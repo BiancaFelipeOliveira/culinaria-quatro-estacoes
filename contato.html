@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/utensilios-de-cozinha.png" type="image/png">
+        <title>Culinária Quatro Estações</title>
+    
+        <style>
+            @font-face {
+                font-family: 'Fell';
+                src: url('IMFePIit28P.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            nav {
+                background-color: rgb(148, 58, 58);
+                color: rgb(255, 255, 255);
+	            width: 1250px;
+	            height: 30px;
+	            text-align: center;
+	            font-size: 18px;
+	            font-family: Verdana, Geneva, Tahoma, sans-serif;
+	            position: relative;
+                margin: 0 auto;
+            }
+
+            class {
+                color:rgb(255, 255, 255);
+            }
+        
+            a {
+                color:rgb(139, 68, 68);
+            }
+
+            p {
+                color:rgb(139, 68, 68);
+                font-size: 50px;
+                font-family: 'Times New Roman';
+                font-style: oblique;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            h1 {
+                font-family: 'Fell', Times, serif;
+                font-weight: normal;
+                color:rgb(139, 68, 68);
+                text-align: center;
+                font-size: 26px;
+            }
+
+            h5 {
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight: normal;
+                color:rgb(139, 68, 68);
+                text-align:center;
+                font-size: 18px;
+            }
+            
+            label {
+                font-size: 18px;
+                color:rgb(139, 68, 68);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            h2 {
+                font-family: 'Fell', Times, serif;
+                font-weight: normal;
+                color:rgb(139, 68, 68);
+                font-size: 18px;
+                text-align: left;
+            }
+            span {
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: normal;
+                color:rgb(121, 121, 121);
+                font-size: 13px;
+            }
+        
+            
+            #button {
+                margin: 0 auto;
+                position: relative;
+                display: block;
+            }
+        </style>
+
+    </head>
+    <body>
+      
+            <p>Culinária Quatro Estações</p>
+       
+            <nav>
+                <h4>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="index.html"> <class id="lblHome">Home</class> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="receita.html"> <class id="lblReceita">Receita</class> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="video.html"> <class id="lblVideo">Video</class> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="contato.html"> <class id="lblContato">Contato</class> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </h4>
+            </nav>
+    
+
+        <h1> Cadastre-se para fazer comentários e receber todas as atualizações do blog!! </h1>
+            <h5> Caso queira: alguma dica, me mandar uma receita para compartilhar, dar uma dica ou por qualquer outra eventual razão, entre em contato conosco! </h5>
+<br>
+                <form name="formulario" method="post" action="">
+                    <fieldset>
+                        <legend><h2> Cadastre-se no nosso site: </h2></legend>
+<br>
+<br>
+                    <label nome="lblNome">Nome Completo: </label><input type="text" name="nome"  required="required"/>
+<br>
+<br><br>
+                    <label nome="lblTelefone">Telefone: </label><input type="tel" name="telefone"  required="required"/>
+<br>
+<br>
+<br>
+                    <label nome="lblDatadeNascimento">Data de nascimento: </label><input type="date" name="datanascimento"  required="required" />
+<br>
+<br>
+<br>
+                    <label nome="lblEmail">Email: </label><input type="email" name="email"  required="required" />
+<br>
+<br>
+<br>
+                    <label nome="lblSenha">Digite uma senha:</label> <input type="password" name="senha" required="required"/> 
+                    
+<br>
+<br>
+<br>
+          </fieldset>
+          <fieldset>          
+            <legend><h2> Envie-nos um comentário, entre em contato conosco: </h2></legend>
+
+            <label nome="lblNome">Nome: </label><input type="text" name="nome"  required="required" placeholder="Coloque seu nome ou apelido!" size="30"/>
+<br>
+<br>
+<br>
+                    <label nome="lblFile"> Envie a foto de sua receita: </label> <span>(opcional)</span> <input name="arquivo" type="file" id="arquivo" />
+                    
+<br>
+<br>
+<br>
+                    <label nome="lblEstado">Estado: </label>
+                    <select>
+                        <optgroup label="Norte">
+                            <option value="Acre">Acre</option>
+                            <option value="Amapa">Amapá</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Pará">Pará</option>
+                            <option value="Rondônia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Tocantins">Tocantins</option>
+
+                        <optgroup label="Nordeste">
+                            <option value="Alagoas">Alagoas</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Ceara">Ceará</option>
+                            <option value="Maranhao">Maranhão</option>
+                            <option value="Paraiba">Paraíba</option>
+                            <option value="Pernambuco">Pernambuco</option>
+                            <option value="Piaui">Piauí</option>
+                            <option value="RioGrandedoNorte">Rio Grande do Norte</option>
+                            <option value="Sergipe">Sergipe</option>
+
+                        <optgroup label="Centro-Oeste">
+                            <option value="Goias">Goiás</option>
+                            <option value="MatoGrosso">Mato Grosso</option>
+                            <option value="MatoGrossodoSul">Mato Grosso do Sul</option>
+
+                        <optgroup label="Sudeste">
+                            <option value="EspiritoSanto">Espírito Santo</option>
+                            <option value="MinasGerais">Minas Gerais</option>
+                            <option value="RiodeJaneiro">Rio de Janeiro</option>
+                            <option value="SaoPaulo">São Paulo</option>
+
+                        <optgroup label="Sul">
+                            <option value="Parana">Paraná</option>
+                            <option value="RioGrandedoSul">Rio Grande do Sul</option>
+                            <option value="SantaCatarina">Santa Catarina</option>
+                    </select>
+<br>
+<br>
+<br>
+                <label nome="lblGenero">Qual seu gênero?</label>&nbsp;
+                    <h2> 
+                        Masculino <input type="radio" name="genero" id="masc" value="m" /> 
+<br>
+                        Feminino <input type="radio" name="genero" id="fem" value="f"/>  
+<br>
+                        Prefiro não informar <input type="radio" name="genero" id="out" value="o"/>
+<br> 
+                        Outro <input type="radio" name="genero" id="out" value="o"/>
+                       
+                    </h2>
+<br>
+
+
+                <label nome="lblAssuntos">Qual(is) assunto(s) você gostaria de ler no blog?</label>&nbsp;<span>(opcional)</span>
+                    <h2>
+                        Dicas para cozinhar: <input type="checkbox" name="Assunto" id="dicas" value="dicas"/>
+<br>
+                        Cursos de culinária: <input type="checkbox" name="Assunto" id="cursos" value="cursos"/>
+<br>
+                        História de receitas: <input type="checkbox" name="Assunto" id="historia" value="historia"/>
+<br>
+                        Receitas de seguidores: <input type="checkbox" name="Assunto" id="receita" value="receita"/> 
+<br>
+                        Recomendação de itens da cozinha: <input type="checkbox" name="Assunto" id="produtos" value="produtos"/>
+                    </h2>
+                    <br>
+                <label nome="lblAssuntos">Você acompanha o blog? </label>
+                    <input list="acompanhar" name="acompanhar" />
+                        <datalist id="acompanhar">
+                            <option value="Sim">
+                            <option value="Não">
+                            <option value="Comecei acompanhar agora">
+                            <option value="Conheci a pouco tempo">
+                            <option value="Não, mas pretendo começar a acompanhar">
+                           
+                    </datalist>&nbsp;<span>(se não tiver a opção que deseja, pode digitar.)</span>
+                    <br>
+<br><br>
+
+                    <label nome="lblComentario">Comentário: </label><br><textarea rows="8" cols="50" required="required" placeholder="Faça seu comentário aqui!"></textarea>
+
+<br>
+<br>
+                    <input type="submit" value="Enviar" />
+               
+                </fieldset>
+                </form>
+       
+<br>
+<h1>Obrigada por visitar nosso site!</h1>
+
+<button input id="button" type="button" value="Clique Aqui" onclick="alert('Bom! Se estiver procurando receitas deliciosas, você já sabe onde encontrar! Adorariamos te ver de novo... Volte sempre!')"><img src="img/voltesempre2.png" width="200" height="50"></button>
+<br>
+    
+        <small>&copy2023 Culinária Quatro Estações </small>
+    </body>
+</html>
+
+
+<!--
+    CÓDIGOS FORMULÁRIO QUE JÁ USEI:
+    - checkbox
+    - textarea
+    - input
+    - select
+    - email
+    - password
+    - text
+    - tel
+    - date
+    - file
+    - radio
+    - datalist
+    - button
+    - alert
+    -
+    -
+    -
+
+-->
+
+
+
