@@ -28,6 +28,11 @@ O maior aprendizado deste projeto foi a experiência de colocar um site no ar. O
 
 ---
 
+### ⚠️ Aviso sobre o Áudio
+Este projeto possui uma funcionalidade de áudio, mas o arquivo de áudio não foi incluído no repositório devido ao seu tamanho. Consequentemente, a função de áudio **não irá funcionar** ao clonar este repositório.
+
+---
+
 ### 🌐 Como Visualizar
 Este projeto foi desenvolvido em 2023 e não está mais hospedado online. No entanto, você pode visualizar o código-fonte e o projeto rodando localmente. Para isso, basta clonar o repositório e abrir o arquivo `index.html` diretamente no seu navegador.
 
